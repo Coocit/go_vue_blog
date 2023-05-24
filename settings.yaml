@@ -1,0 +1,59 @@
+mysql:
+  host: 127.0.0.1
+  port: 3307
+  config: ""
+  db: gvb_db
+  user: root
+  password: "123456"
+  log_level: dev
+logger:
+  level: info
+  prefix: '[go_vue_blog]'
+  director: log
+  show-line: true
+  log-in-console: true
+system:
+  host: 0.0.0.0
+  port: 8080
+  env: release
+site_info:
+  created_at: "2023-04-02"
+  bei_an: ""
+  title: YoloBlog
+  qq_image: ""
+  version: "2"
+  email: ""
+  wechat_image: ""
+  name: Yolo
+  job: ""
+  addr: ""
+  slogan: ""
+  slogan_en: ""
+  web: ""
+  bili_bili_url: ""
+  gitee_url: ""
+  github_url: ""
+qq:
+  app_id: ""
+  key: ""
+  redirect: ""
+qi_niu:
+  enable: false
+  access_key: ""
+  secret_key: ""
+  bucket: ""
+  cdn: ""
+  zone: ""
+  size: 0
+email:
+  host: ""
+  port: 0
+  user: ""
+  password: ""
+  default_from_email: ""
+  use_ssl: false
+  user_tls: false
+jwt:
+  secret: ""
+  expires: 1
+  issuer: ""
